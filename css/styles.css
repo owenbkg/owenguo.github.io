@@ -1,0 +1,41 @@
+
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.2;
+  padding: 2em 1em;
+  color: #555;
+}
+
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td{
+  padding: 10px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
